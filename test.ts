@@ -9,8 +9,8 @@ serve((req: Request) => {
     return new Response('Bad Request', { status: 400 });
   }
   return Response.json({
-    name: 'test',
-    description: 'sample text',
+    name: 'Fighter NFT',
+    description: 'this is NFT for support a fighter',
     image: 'https://i.imgur.com/fAC700N.jpg',
     attributes: {},
   });
