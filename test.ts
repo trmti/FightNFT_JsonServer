@@ -11,7 +11,7 @@ serve((req: Request) => {
   return Response.json({
     name: 'test',
     description: 'sample text',
-    image: 'https://i.imgur.com/TySZlZ5.jpg',
+    image: 'https://i.imgur.com/fAC700N.jpg',
     attributes: {},
   });
 });
